@@ -6,144 +6,148 @@
 
 image processing
 - data
-   - raw data
-   - high dynamic range(HDR)
-   - elements
-     - pixel
-       - superpixel
-       - subpixel
-     - boxel
+  - raw data
+    - high dynamic range(HDR)
+  - elements
+    - pixel
+      - superpixel
+      - subpixel
 - color system
-   - RGB
-     - Web Color
-   - HSV/HSI
-   - La*b*
-   - XYZ
-   - CIE-Lab
+  - RGB
+    - Web Color
+  - HSV/HSI
+  - Lab
+  - XYZ
+  - CIE-Lab
 - field
-   - scalar field
-   - vector field
+  - scalar field
+  - vector field
 - deformation
-   - keywords
-     - local-maxima
-     - as-rigid-as-possible
-       - shape-preservation
-       - munipulation-invariant
-         - translation
-         - rotation
-         - scaling
+  - keywords
+    - local-maxima
+    - as-rigid-as-possible
+    - shape-preservation
+    - munipulation-invariant
+      - translation
+      - rotation
+      - scaling
      - linear combination
-   - interpolation
-     - nearest-neighbor
-     - bi-linear
-     - bi-cubic
-   - resizing
-     - *Seam Carving
-   - mapping
-     - transform
-       - affine
-       - similarity
-       - rigid
-     - projection mapping
-     - coordinates systems
-       - Harmonic functions
-          - *Harmonic Coordinates
-          - *Mean-Value Coordinates
-          - *Green Coordinates
-          - *Biharmonic equations
-       - Least-square equations
-         - *Moving Least Square
-- paste/blend/composition
-   - *Poisson composition
+  - interpolation
+    - nearest-neighbor
+    - bi-linear
+    - bi-cubic
+  - resizing
+    - *Seam Carving
+  - mapping
+    - transform
+      - affine
+      - similarity
+      - rigid
+    - projection mapping
+  - coordinates systems
+    - Harmonic functions
+      - *Harmonic Coordinates
+      - *Mean-Value Coordinates
+      - *Green Coordinates
+      - *Biharmonic equations
+    - Least-square equations
+      - *Moving Least Square
+  - paste/blend/composition
+    - *Poisson composition
       - boundary condition
         - direchlet boundary condition
         - noeman boundary condition
         - Robin boundary condition
       - *Laplace equation
-   - convex-region
+    - convex-region
       - *Mean-value Coordinates
-- editing
-   - Brush-interface
-     - *Poisson-based gradient editing
-     - *Patch Match
-   - Segment-interface
-     - *Diffusion Curve
+  - editing
+    - Brush-interface
+      - *Poisson-based gradient editing
+      - *Patch Match
+    - Segment-interface
+      - *Diffusion Curve
 - filtering
-   - convolution
-   - de-blur
-     - Fourier-field-base
-       - Letanex filter
-   - blur
+  - convolution
+  - de-blur
+    - Fourier-field-base
+    - Letanex filter
+  - blur
     - Average filter
     - Gaussian filter
-     - flatten
-       - mean-filter
-     - edge-aware blur
-       - bilateral filter
-   - sharpen
-   - de-noise/de-blur
-   - edge detection
-     - filter-base
-       - Sobel filter
-       - Laplacian filter
-       - LoG filter
-     - algorithm
-       - *Canny edge detector
+  - flatten
+    - mean-filter
+    - median-filter
+      - edge-aware blur
+      - bilateral filter
+  - sharpen
+  - de-noise/de-blur
+    - edge detection
+      - filter-base
+        - Sobel filter
+        - Laplacian filter
+        - LoG filter
+      - algorithm
+        - *Canny edge detector
 - selection
-   - Brush-interface
-     - Magic Wand@Photoshop
-   - point select-interface
-     - region growing
-   - separation
-     - keywords
-       - Probablity
-         - statistics
-       - Likelihood
-     - *Grab Cut
-     - *Graph Cut
+  - Brush-interface
+    - Magic Wand@Photoshop
+  - point select-interface
+    - region growing
+  - separation
+    - keywords
+      - statistics
+        - Probablity
+        - Likelihood
+    - *Grab Cut
+    - *Graph Cut
 - graph theorem
-   - vertex/node
-   - link/edge
+  - vertex/node
+  - link/edge
 - grouping/matching
-   - Bijective mapping
+  - Bijective mapping
 - analysis/cognition
-   - object-tracking
-     - optical flow
-   - discovery
-   - *haar-like
-   - *SIFT
+  - object-tracking
+    - optical flow
+  - discovery
+    - *haar-like
+    - *SIFT
 - collection/classification
    - neural-networks
      - deep-learning
 - reconstruction/rendering
-   - color-base
-      - toon-rendering
-      - *Color Harmonization
-   - gradient-base
-      - *GradientShop
-   - generation
-     - homogenization
-     - hulliculation
-     - perception
+  - color-base
+    - toon-rendering
+    - *Color Harmonization
+  - gradient-base
+    - *GradientShop
+  - generation
+    - homogenization
+    - hulliculation
+    - perception
 - compression/depression
-   - Picture-target
-     - GIF/PNG/JPEG
-   - Movie-target
-     - MPEG
+  - Picture-target
+    - GIF/PNG/JPEG
+  - Movie-target
+    - MPEG
 - calculation
-   - iterated calculation
-     - Gauss-Seidel method
-   - statistics
-     - Expectaion-Maximization method
-   - integration
-     - circle integration
-     - line integration
-     - face integration
-   - least square method
-   - convolution
-   - summation
-   - Average
-     - summed-Average
-     - multiplied-Average
-     - Moving-Average
-     - Exponential-Average
+  - basic statistics
+    - mean/Average
+    - median
+    - max/min
+  - iterated calculation
+    - Gauss-Seidel method
+  - statistics
+    - Expectaion-Maximization method
+  - integration
+    - circle integration
+    - line integration
+    - face integration
+  - least square method
+  - convolution
+  - summation
+  - Average/Mean
+    - summed-Average
+    - multiplied-Average
+    - Moving-Average
+    - Exponential-Average
