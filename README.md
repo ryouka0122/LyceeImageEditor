@@ -2,7 +2,7 @@
 画像編集機能をたくさん詰め込んだPhotoshopみたいなアプリ
 
 ## 関連キーワード
-*がついているのは、技術論文にまつわるもの
+\*がついているのは、技術論文にまつわるもの
 
 image processing
 - data
@@ -12,13 +12,14 @@ image processing
     - pixel
       - superpixel
       - subpixel
+    - boxel
 - color system
   - RGB
     - Web Color
   - HSV/HSI
-  - Lab
+  - La\*b\*
   - XYZ
-  - CIE-Lab
+  - CIE-LAB
 - field
   - scalar field
   - vector field
@@ -37,7 +38,7 @@ image processing
     - bi-linear
     - bi-cubic
   - resizing
-    - *Seam Carving
+    - \*Seam Carving
   - mapping
     - transform
       - affine
@@ -46,27 +47,27 @@ image processing
     - projection mapping
   - coordinates systems
     - Harmonic functions
-      - *Harmonic Coordinates
-      - *Mean-Value Coordinates
-      - *Green Coordinates
-      - *Biharmonic equations
+      - \*Harmonic Coordinates
+      - \*Mean-Value Coordinates
+      - \*Green Coordinates
+      - \*Biharmonic equations
     - Least-square equations
-      - *Moving Least Square
+      - \*Moving Least Square
   - paste/blend/composition
-    - *Poisson composition
+    - \*Poisson composition
       - boundary condition
         - direchlet boundary condition
         - noeman boundary condition
         - Robin boundary condition
-      - *Laplace equation
+      - \*Laplace equation
     - convex-region
-      - *Mean-value Coordinates
+      - \*Mean-value Coordinates
   - editing
     - Brush-interface
-      - *Poisson-based gradient editing
-      - *Patch Match
+      - \*Poisson-based gradient editing
+      - \*Patch Match
     - Segment-interface
-      - *Diffusion Curve
+      - \*Diffusion Curve
 - filtering
   - convolution
   - de-blur
@@ -88,7 +89,7 @@ image processing
         - Laplacian filter
         - LoG filter
       - algorithm
-        - *Canny edge detector
+        - \*Canny edge detector
 - selection
   - Brush-interface
     - Magic Wand@Photoshop
@@ -99,8 +100,8 @@ image processing
       - statistics
         - Probablity
         - Likelihood
-    - *Grab Cut
-    - *Graph Cut
+    - \*Grab Cut
+    - \*Graph Cut
 - graph theorem
   - vertex/node
   - link/edge
@@ -110,17 +111,17 @@ image processing
   - object-tracking
     - optical flow
   - discovery
-    - *haar-like
-    - *SIFT
+    - \*haar-like
+    - \*SIFT
 - collection/classification
    - neural-networks
      - deep-learning
 - reconstruction/rendering
   - color-base
     - toon-rendering
-    - *Color Harmonization
+    - \*Color Harmonization
   - gradient-base
-    - *GradientShop
+    - \*GradientShop
   - generation
     - homogenization
     - hulliculation
